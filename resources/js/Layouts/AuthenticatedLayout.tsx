@@ -13,7 +13,6 @@ export default function Authenticated({
     console.log(user)
     const [showingNavigationDropdown, setShowingNavigationDropdown] =
         useState(false);
-
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
             <nav className="border-b border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800">
